@@ -1,0 +1,41 @@
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+*.log
+
+# User-specific files
+*.rsuser
+*.userprefs
+*.ide
+*.sln.ide
+
+# ASP.NET
+App_Data/
+App_Start/
+
+# Configuration files
+*.config
+!Web.config # Keep Web.config, ignore others if any
+appsettings*.json
+*.db
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Logs, database, and debug
+*.log
+*.sql
+*.sqlite
+*.mdf
+*.ldf

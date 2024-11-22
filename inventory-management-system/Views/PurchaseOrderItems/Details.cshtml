@@ -1,0 +1,114 @@
+﻿@model inventory_management_system.Models.PurchaseOrderItem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>PurchaseOrderItem</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Quantity)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.UnitPrice)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TotalPrice)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ReceivedQuantity)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ReceivedQuantity)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CreatedAt)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.UpdatedAat)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.UpdatedAat)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Product.Name)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Product.Name)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Product1.Name)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Product1.Name)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PurchaseOrder.OrderNumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PurchaseOrder.OrderNumber)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PurchaseOrder1.OrderNumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PurchaseOrder1.OrderNumber)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PurchaseOrder2.OrderNumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PurchaseOrder2.OrderNumber)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.PurchaseOrderItemID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

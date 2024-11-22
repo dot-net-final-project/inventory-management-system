@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6b463553c5e544629912234c8f47acbc" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Category" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Customer" Width="1.5" PointX="3.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.InventoryTransaction" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="6" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PurchaseOrderItem" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PurchaseOrder" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Role" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SalesOrderItem" Width="1.5" PointX="11.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SalesOrder" Width="1.5" PointX="6" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Supplier" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserRole" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SalesOrders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_InventoryTransactions_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrderItems_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrderItems_Products1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SalesOrderItems_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrderItems_PurchaseOrders" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrderItems_PurchaseOrders1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrderItems_PurchaseOrders2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrders_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PurchaseOrders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UserRoles_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SalesOrderItems_SalesOrders" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SalesOrders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UserRoles_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
